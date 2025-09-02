@@ -12,3 +12,25 @@ img,
 video {
   display: block;
 }
+
+html {
+  --color-main: #515050;
+  --color-secondary: #000000;
+}
+
+html[data-theme="light"] {
+  --color-main: #f7f6f6;
+  --color-secondary: #ffffff;
+}
+
+header {
+  background-color: var(--color-main);
+}
+
+html[data-theme="dark"] #darkmode {
+  display: none;
+}
+
+html[data-theme="light"] #lightmode {
+  display: none;
+}
