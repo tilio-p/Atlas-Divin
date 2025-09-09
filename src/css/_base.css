@@ -19,7 +19,7 @@ html {
 }
 
 html[data-theme="light"] {
-  --color-main: #f7f6f6;
+  --color-main: #bcbfc3;
   --color-secondary: #ffffff;
 }
 
