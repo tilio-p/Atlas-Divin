@@ -34,3 +34,8 @@ html[data-theme="dark"] #darkmode {
 html[data-theme="light"] #lightmode {
   display: none;
 }
+
+.row {
+  background: #515050;
+  border: solid 1px #000000;
+}
