@@ -6,6 +6,12 @@
 
 a {
   color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 img,
@@ -17,6 +23,7 @@ html {
   --color-main: #515050;
   --color-secondary: #000000;
   --color-black: #000000;
+  --color-background-light: #bcbfc3;
 }
 
 html[data-theme="light"] {

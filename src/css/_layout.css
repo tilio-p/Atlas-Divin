@@ -1,0 +1,10 @@
+.l-reseaux {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.l-liens {
+  display: flex;
+  justify-content: space-between;
+}
