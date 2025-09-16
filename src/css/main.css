@@ -2,6 +2,8 @@
 @import "./_base.css";
 @import "./_layout.css";
 @import "./modules/_footer";
-@import "./modules/_footer";
+@import "./modules/_header";
+@import "./modules/_pantheon.css";
+@import "./modules/_dieu-du-jour.css";
 
 @import "../../node_modules/bootstrap/dist/css/bootstrap-grid.css";
