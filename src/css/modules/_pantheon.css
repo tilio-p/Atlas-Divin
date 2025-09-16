@@ -36,14 +36,14 @@ ul {
   gap: 20px;
 }
 
-ul li:nth-child(2) a {
+.pantheons-populaires li:nth-child(2) a {
   background-color: #f8af27;
 }
 
-ul li:nth-child(3) a {
+.pantheons-populaires ul li:nth-child(3) a {
   background-color: #12965d;
 }
 
-ul li:nth-child(4) a {
+.pantheons-populaires ul li:nth-child(4) a {
   background-color: #f82727;
 }
