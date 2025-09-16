@@ -2,5 +2,6 @@
 @import "./_base.css";
 @import "./_layout.css";
 @import "./modules/_footer";
+@import "./modules/_footer";
 
 @import "../../node_modules/bootstrap/dist/css/bootstrap-grid.css";

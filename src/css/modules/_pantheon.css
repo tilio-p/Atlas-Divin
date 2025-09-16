@@ -1,0 +1,23 @@
+.pantheons-populaires h2 {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.pantheons-populaires h3 {
+  color: var(--Background, #fff);
+  font-family: "Caesar Dressing";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pantheons-populaires a {
+  display: flex;
+  padding: 12px 8px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
