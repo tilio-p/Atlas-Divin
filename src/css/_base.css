@@ -29,6 +29,7 @@ html {
   --color-yellow: #f8af27;
   --color-green: #12965d;
   --color-red: #f82727;
+  --color-button: #;
 }
 
 html[data-theme="light"] {
