@@ -3,13 +3,14 @@ footer {
   padding: 20px 12px;
   flex-direction: column;
   gap: 20px;
-  background: var(--color-background-light);
+  background: var(--color-background);
 }
 
 footer a {
   font-family: "Bubbler One";
   font-size: 20px;
   font-weight: 400;
+  color: var(--color-text-main);
 }
 
 footer p {
@@ -17,8 +18,8 @@ footer p {
   padding-top: 20px;
   justify-content: center;
   align-self: stretch;
-  border-top: 1px solid var(--Text-secondary, #000);
-  color: var(--color-black, #000);
+  border-top: 1px solid var(--color-text-main);
+  color: var(--color-text-main);
   font-family: "Bubbler One";
   font-size: 16px;
   font-weight: 400;

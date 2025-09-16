@@ -3,7 +3,6 @@
 }
 
 .pantheons-populaires h2 {
-  color: var(--Text-main, #515050);
   font-family: "Bubbler One";
   font-size: 24px;
   font-weight: 400;
@@ -11,12 +10,13 @@
 }
 
 .pantheons-populaires h3 {
-  color: var(--Background, #fff);
+  color: var(--color-main);
   font-family: "Caesar Dressing";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  color: var(--color-secondary);
 }
 
 .pantheons-populaires a {
@@ -26,7 +26,7 @@
   gap: 8px;
   align-self: stretch;
   border-radius: 8px;
-  background: var(--Blue, #279ef8);
+  background: var(--color-blue);
   justify-content: space-between;
 }
 
@@ -37,13 +37,13 @@ ul {
 }
 
 .pantheons-populaires li:nth-child(2) a {
-  background-color: #f8af27;
+  background-color: var(--color-yellow);
 }
 
 .pantheons-populaires ul li:nth-child(3) a {
-  background-color: #12965d;
+  background-color: var(--color-green);
 }
 
 .pantheons-populaires ul li:nth-child(4) a {
-  background-color: #f82727;
+  background-color: var(--color-red);
 }

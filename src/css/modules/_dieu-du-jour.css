@@ -24,7 +24,7 @@
 }
 
 .dieu-du-jour h4 {
-  color: var(--Text-main, #515050);
+  color: var(--color-main, #515050);
   font-family: "Bubbler One";
   font-size: 20px;
   padding-bottom: 16px;
