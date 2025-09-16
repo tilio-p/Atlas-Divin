@@ -7,12 +7,14 @@
   align-self: stretch;
   border-radius: 8px;
   border: 2px solid var(--color-main, #515050);
+  margin-bottom: 40px;
 }
 
 .dieu-du-jour h2 {
   color: var(--color-main, #515050);
   font-family: "Caesar Dressing";
   font-size: 16px;
+  padding-bottom: 16px;
 }
 
 .dieu-du-jour h3 {
@@ -21,13 +23,20 @@
   font-size: 24px;
 }
 
+.dieu-du-jour h4 {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  padding-bottom: 16px;
+}
+
 .dieu-du-jour p {
   color: var(--color-main, #515050);
   font-family: "Bubbler One";
   font-size: 20px;
 }
 
-.dieu-du-jour {
+.dieu-du-jour a {
   color: var(--color-main, #515050);
   font-family: "Bubbler One";
   font-size: 20px;

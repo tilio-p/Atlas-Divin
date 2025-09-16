@@ -8,3 +8,7 @@
   display: flex;
   justify-content: space-between;
 }
+
+.l-h2 {
+  padding-bottom: 24px;
+}

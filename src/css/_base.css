@@ -43,11 +43,6 @@ html[data-theme="light"] #lightmode {
   display: none;
 }
 
-.row {
-  background: #515050;
-  border: solid 1px #000000;
-}
-
 h1 {
   color: var(--color-black);
   font-family: "Caesar Dressing";
@@ -60,4 +55,12 @@ h2 {
   font-family: "Caesar Dressing";
   font-size: 32px;
   font-weight: 400;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
 }
