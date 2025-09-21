@@ -23,6 +23,7 @@ html {
   --color-main: #515050;
   --color-secondary: #fff;
   --color-text-main: #000000;
+  --color-text-secondary: #515050;
   --color-background: #bcbfc3;
   --color-background-secondary: #fff;
   --color-blue: #279ef8;
@@ -30,12 +31,14 @@ html {
   --color-green: #12965d;
   --color-red: #f82727;
   --color-button: #;
+  --color-blue-card: #279ef8;
 }
 
 html[data-theme="light"] {
   --color-main: #fff;
   --color-secondary: #515050;
   --color-text-main: #fff;
+  --color-text-secondary: #f7f6f6;
   --color-background: #696a6c;
   --color-background-secondary: #515050;
   --color-blue: #a3d7ff;

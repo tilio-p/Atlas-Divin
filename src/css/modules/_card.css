@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid var(--color-blue-card, #279ef8);
+  background: var(--color-secondary);
+}
+
+.textes {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-bas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card h3 {
+  color: var(--color-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card p {
+  color: var(--color-main);
+  font-family: "Bubbler One";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.image-haut {
+  background-image: url("/Image/dieux/athena.png");
+}

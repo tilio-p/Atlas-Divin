@@ -5,5 +5,6 @@
 @import "./modules/_header";
 @import "./modules/_pantheon.css";
 @import "./modules/_dieu-du-jour.css";
+@import "./modules/_card.css";
 
 @import "../../node_modules/bootstrap/dist/css/bootstrap-grid.css";
