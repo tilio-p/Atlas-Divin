@@ -18,14 +18,13 @@
   padding: 12px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 10px;
   align-self: stretch;
 }
 
 .card h2 {
   background: var(--color-secondary);
-  width: stretch;
+  display: inline-block;
 }
 
 .card h3 {
@@ -47,9 +46,25 @@
 }
 
 .image-haut {
+  display: flex;
+  justify-content: space-between;
   background-image: url("../../Image/dieux/athena.png");
-  aspect-ratio: 305/216;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
   height: 216px;
   overflow: hidden;
+  padding-top: 12px;
+  padding-right: 12px;
+}
+
+.nom {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.favoris {
+  display: flex;
+  flex-direction: row-reverse;
 }
