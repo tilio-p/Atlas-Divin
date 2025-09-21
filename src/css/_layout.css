@@ -12,3 +12,9 @@
 .l-h2 {
   padding-bottom: 24px;
 }
+
+.l-en-savoir-plus {
+  display: flex;
+  justify-content: space-between;
+  width: stretch;
+}
