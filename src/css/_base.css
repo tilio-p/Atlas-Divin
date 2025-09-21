@@ -32,6 +32,9 @@ html {
   --color-red: #f82727;
   --color-button: #;
   --color-blue-card: #279ef8;
+  --color-yellow-card: #f8af27;
+  --color-green-card: #12965d;
+  --color-red-card: #f82727;
 }
 
 html[data-theme="light"] {
